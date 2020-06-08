@@ -3,7 +3,8 @@ expressão(campo,"(.*(?i)termoatual.*)") THEN "novotermo"
 Case completo:
 
 Case
-    WHEN REGEXP_MATCH(veiculo,"(.*(?i)fb.*)") THEN "facebook"
+    WHEN REGEXP_MATCH(veiculo,"(.*(?i)fb.*)") THEN "Facebook Ads"
+    WHEN REGEXP_MATCH(veiculo,"(.*(?i)gads.*)") THEN "Google Ads"
     Else "verificar"   
 END 
 
