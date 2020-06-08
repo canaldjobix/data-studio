@@ -1,0 +1,7 @@
+fx-concat
+CONCAT(campanha,"-",anuncio)
+
+Nome do novo campo: fx-concat
+
+fórmula: CONCAT(coluna01,"-",coluna02)
+CONCAT(campanha,"-",anuncio)
